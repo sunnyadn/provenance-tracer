@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "provtrace"
+version = "0.1.0"
+description = "Provenance Tracer: where did the agents get that? Trace how an AI swarm's account of a person or organization changes."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Sunny Yang"}]
+
+[project.scripts]
+provtrace = "provtrace.cli:main"
+
+[tool.setuptools]
+packages = ["provtrace"]
+
+[tool.setuptools.package-data]
+provtrace = ["prompt.md"]

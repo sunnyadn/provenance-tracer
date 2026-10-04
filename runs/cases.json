@@ -1,0 +1,203 @@
+{
+ "note": "Parameters for each case page. The raw records are not redistributed (the dataset is gated); anyone with access can regenerate the input and the tracer report with the command. Case pages were produced by an earlier version of the same pipeline, so a rerun can differ in record numbering and wording.",
+ "cases": [
+  {
+   "case": "heifer",
+   "entity": "Heifer International",
+   "records": 89,
+   "from": "2025-10-28 19:55:30",
+   "to": "2025-10-29 20:39:36",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Heifer International\" --start 2025-10-28 --end 2025-10-29"
+  },
+  {
+   "case": "survey",
+   "entity": "[private individual]",
+   "records": 66,
+   "from": "2026-07-07 16:03:43",
+   "to": "2026-07-07 22:35:20",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "entity is a private individual; name withheld"
+  },
+  {
+   "case": "home-depot",
+   "entity": "Home Depot",
+   "records": 50,
+   "from": "2026-02-13 18:44:04",
+   "to": "2026-02-16 18:07:04",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Home Depot\" --start 2026-02-13 --end 2026-02-16"
+  },
+  {
+   "case": "quote",
+   "entity": "[private individual]",
+   "records": 113,
+   "from": "2025-08-11 17:35:12",
+   "to": "2025-08-13 19:50:24",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "entity is a private individual; name withheld"
+  },
+  {
+   "case": "forecast-attribution",
+   "entity": "Toby Ord",
+   "records": 87,
+   "from": "2025-12-01 18:16:50",
+   "to": "2025-12-04 18:30:56",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Toby Ord\" --start 2025-12-01 --end 2025-12-04"
+  },
+  {
+   "case": "self-reply",
+   "entity": "Kenneth Reitz",
+   "records": 223,
+   "from": "2025-12-22 19:38:48",
+   "to": "2025-12-24 20:03:52",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Kenneth Reitz\" --start 2025-12-22 --end 2025-12-24"
+  },
+  {
+   "case": "stop",
+   "entity": "Guido van Rossum",
+   "records": 123,
+   "from": "2025-12-22 20:37:09",
+   "to": "2025-12-31 20:24:34",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Guido van Rossum\" --start 2025-12-22 --end 2025-12-31"
+  },
+  {
+   "case": "impostor",
+   "entity": "[private individual]",
+   "records": 220,
+   "from": "2026-08-06 18:50:43",
+   "to": "2026-08-12 16:01:56",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "entity is a private individual; name withheld"
+  },
+  {
+   "case": "one-click",
+   "entity": "Kaiser Permanente",
+   "records": 64,
+   "from": "2025-11-11 18:30:24",
+   "to": "2025-11-14 18:54:23",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Kaiser Permanente\" --start 2025-11-11 --end 2025-11-14"
+  },
+  {
+   "case": "free-kit",
+   "entity": "Sanitation Foundation",
+   "records": 112,
+   "from": "2026-02-09 18:19:01",
+   "to": "2026-02-10 19:32:28",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Sanitation Foundation\" --start 2026-02-09 --end 2026-02-10"
+  },
+  {
+   "case": "test-entry",
+   "entity": "[private individual]",
+   "records": 150,
+   "from": "2026-02-10 21:31:07",
+   "to": "2026-02-13 18:43:45",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "entity is a private individual; name withheld"
+  },
+  {
+   "case": "staff-instruction",
+   "entity": "Oakland Public Library",
+   "records": 182,
+   "from": "2025-06-05 19:16:30",
+   "to": "2025-06-11 19:27:25",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Oakland Public Library\" --start 2025-06-05 --end 2025-06-11"
+  },
+  {
+   "case": "pilot-claim",
+   "entity": "GiveDirectly",
+   "records": 182,
+   "from": "2025-10-27 18:28:33",
+   "to": "2025-10-29 17:49:37",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"GiveDirectly\" --start 2025-10-27 --end 2025-10-29"
+  },
+  {
+   "case": "autoreply",
+   "entity": "National Parents Union",
+   "records": 121,
+   "from": "2025-12-23 19:25:13",
+   "to": "2025-12-25 19:03:26",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"National Parents Union\" --start 2025-12-23 --end 2025-12-25"
+  },
+  {
+   "case": "feedback-ad",
+   "entity": "[private individual]",
+   "records": 93,
+   "from": "2026-07-13 19:08:56",
+   "to": "2026-07-16 23:27:33",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "entity is a private individual; name withheld"
+  },
+  {
+   "case": "borrowed-numbers",
+   "entity": "United Way",
+   "records": 231,
+   "from": "2025-10-28 18:28:13",
+   "to": "2025-10-30 20:23:57",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"United Way\" --start 2025-10-28 --end 2025-10-30"
+  },
+  {
+   "case": "own-clicks",
+   "entity": "Mayo Clinic",
+   "records": 159,
+   "from": "2025-11-11 19:11:13",
+   "to": "2025-11-17 19:05:30",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"Mayo Clinic\" --start 2025-11-11 --end 2025-11-17"
+  },
+  {
+   "case": "sure-thing",
+   "entity": "Jannik Sinner",
+   "records": 214,
+   "from": "2026-07-06 18:01:01",
+   "to": "2026-08-10 18:33:44",
+   "scope": "Records traced: 2026-07-06 to 08-07, those mentioning Sinner near the Australian Open, Grand Slams, the market or the corrections (sampled per agent and day to fit one model call).",
+   "command": "provtrace trace \"Jannik Sinner\" --start 2026-07-06 --end 2026-08-10"
+  },
+  {
+   "case": "same-name",
+   "entity": "AI Republic",
+   "records": 101,
+   "from": "2026-08-31 23:44:34",
+   "to": "2026-09-01 22:43:20",
+   "scope": "Records traced: 2026-08-31 to 09-01, those mentioning AI Republic near Kimi K3, fabrication, impersonation or the name collision (sampled per agent and hour to fit one model call).",
+   "command": "provtrace trace \"AI Republic\" --start 2026-08-31 --end 2026-09-01"
+  },
+  {
+   "case": "false-alarm",
+   "entity": "[private individual]",
+   "records": 89,
+   "from": "2025-11-26 18:04:58",
+   "to": "2025-11-27 21:35:04",
+   "scope": "Records traced: 2025-11-26 to 11-27, those mentioning the reader near replies, comments or hallucination (sampled per agent and hour to fit one model call).",
+   "command": "entity is a private individual; name withheld"
+  },
+  {
+   "case": "phantom-pr",
+   "entity": "PR 397",
+   "records": 79,
+   "from": "2026-03-12 20:32:50",
+   "to": "2026-03-13 17:11:05",
+   "scope": "All records naming the entity in the date range (plus name variants), with human chat posted nearby.",
+   "command": "provtrace trace \"PR #397\" --pattern \"397|phantom\" --start 2026-03-12 --end 2026-03-13"
+  },
+  {
+   "case": "outage",
+   "entity": "Cloudflare",
+   "records": 181,
+   "from": "2025-11-10 21:14:23",
+   "to": "2025-12-31 18:19:16",
+   "scope": "Chunk 2 of 84 of all records naming Cloudflare (whole history, no date range), read with the standard prompt.",
+   "command": "provtrace scan \"Cloudflare\" --parts 2 --cap-usd 1"
+  }
+ ]
+}

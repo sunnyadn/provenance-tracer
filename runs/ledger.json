@@ -1,0 +1,1410 @@
+{
+ "note": "Every traced name with the tracer's first-pass outcome (and the second pass with name variants where run). Flags are counted per run, so one object can appear twice (two pairs of names refer to the same object). 'tracer_named_change_held' = whether the specific change the tracer named was supported on review; 'real change, but not the one the tracer named' means review found a different change. Checks were made by an AI analysis agent, not a human. Private individuals masked.",
+ "summary": {
+  "first_pass": {
+   "names": 170,
+   "flagged": 37,
+   "confirmed": 18,
+   "real change, other": 2,
+   "wrong": 2,
+   "unresolved": 15
+  },
+  "rerun_v4_on_33_unflagged": {
+   "flagged": 10,
+   "unresolved": 6,
+   "confirmed": 4
+  },
+  "miss_check": "8 unflagged holdout names re-read by the analysis agent: 4 small ones fully read, no change missed; 4 large ones not fully readable in time."
+ },
+ "names": [
+  {
+   "round": "dev",
+   "name": "Harvard University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "dev",
+   "name": "Home Depot",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "home-depot",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "dev",
+   "name": "Khan Academy",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "unresolved",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "dev",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "real change, but not the one the tracer named",
+   "case": "quote",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": false
+  },
+  {
+   "round": "dev",
+   "name": "Malaria Consortium",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "unresolved",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "dev",
+   "name": "Princeton University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "dev",
+   "name": "The New York Times",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "dev",
+   "name": "University of Minnesota",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v1",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Benefits Data Trust",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "unresolved",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Brown University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Central Avenue School",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "City View Commissary",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "wrong (tracer missed the source; a different change was confirmed in the extension round)",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": false
+  },
+  {
+   "round": "holdout",
+   "name": "Cleveland Clinic",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "confirmed",
+   "case": "own-clicks",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Doctors Without Borders",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Evidence Action",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Helen Keller International",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "I Dream of Indie Games",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Jannik Sinner",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "confirmed",
+   "case": "sure-thing",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "KTH Royal Institute of Technology",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Love Dolores Park",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Madison Community House",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Manhattan Youth",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Mayo Clinic",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "confirmed",
+   "case": "own-clicks",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Mission Recreation Center",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Monica Gagliano",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "National Institute of Standards and Technology",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Oakland Public Library",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "real change, but not the one the tracer named",
+   "case": "staff-instruction",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": false
+  },
+  {
+   "round": "holdout",
+   "name": "Queens Community House",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "unresolved",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "San Francisco Public Library",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed (minor: contradiction, not repeated)",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "holdout",
+   "name": "Scotia Bookbinding",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "unresolved",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Starforge Commons",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "The New York Foundling",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "unresolved",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "Thursday Morning Club",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "United Way",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "rerun_v4": "confirmed",
+   "case": "borrowed-numbers",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "holdout",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "survey",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "holdout",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v2",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "49 and Market",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Animal Charity Evaluators",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Animal Equality",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Bell Labs",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Bella + Canvas",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Black Box Theater",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Bryan Stevenson",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "CSS Working Group",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Daedalus Spinning Wheels",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Deep South Center for Environmental Justice",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Dillard University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Duke Center for Child & Family Policy",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Evan You",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved (tracer reason wrong; case dropped)",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Hunter College",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "It's Nice That",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "JCC Rockland",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Left Foot Leather",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Little Gold Pixel",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Lovin Soap Studio",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Malaria No More",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Mamie's Schoolhouse",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Mission Blue",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "My Chip Carving",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "National Council of Teachers of Mathematics",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Ott-Heinrich Keller",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "PS 130",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "PS 150",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "PS 199",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Project Drawdown",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved (unsupported, not shown false)",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Relational AI",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Robert Bullard",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Rowan University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Sage Future Inc",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Thistle Threads",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "fresh",
+   "name": "Toby Ord",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "forecast-attribution",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "fresh",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v3",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "AS Colour",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Against Malaria Foundation",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "test-entry",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "Amory Lovins",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Armin Ronacher",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Brian Tomasik",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Bware Labs",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Caning Canada",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Carlos Alcaraz",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Charity Navigator",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "ClimateWorks Foundation",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Code for America",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "College of Saint Mary",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Columbia University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Community Coalition",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed (minor)",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "Cornell University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Dan Abramov",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Daniel Kokotajlo",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Fox + Hazel",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "French Ethereal",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Guido van Rossum",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "stop",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "Harry Eichler School",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "International Society for Technology in Education",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Kaiser Permanente",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "one-click",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "Kenneth Reitz",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "self-reply",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Martin Monperrus",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Mercy For Animals",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "National Council on Aging",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Pillar Box Blue",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Pyrography Made Easy",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Sanitation Foundation",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "free-kit",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "Siemion Fajtlowicz",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Stanford AI Lab",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "The Good Food Institute",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "The Humane League",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "The Melody SF",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "The Navage Patch",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "impostor",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "final",
+   "name": "Today's Students Coalition",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "University of Michigan",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Wes Roth",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "final",
+   "name": "Y Combinator",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Acumen",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Between Minds",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "wrong (source was in a record the collector missed)",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": false
+  },
+  {
+   "round": "extension",
+   "name": "Billboard",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Cityview Event Hall",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed (minor)",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "Forbes",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "GNOME",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "GiveDirectly",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "pilot-claim",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "GiveWell",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Google DeepMind",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Groundwire",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "feedback-ad",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "Kollegah",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Lighthaven",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Markiplier",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed (minor)",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "Muhammad Yunus",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Mycelnet",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "NVIDIA",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "National Parents Union",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "autoreply",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "Navdanya",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved (re-checked 2026-10-04: records do not support the stated inversion; case withdrawn)",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "NeurIPS",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Northeastern University",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "OWASP",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Owlet",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Oxfam",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed",
+   "case": "pilot-claim",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "PauseAI",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "confirmed (minor)",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": true
+  },
+  {
+   "round": "extension",
+   "name": "Roxanne Swentzell",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Rughookology",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "SOMArts",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Sizzix",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "Tesla",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "The Mental Health Coalition",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "The Pentagon",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "WIRED",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": false,
+   "outcome_first_pass": "not flagged",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  },
+  {
+   "round": "extension",
+   "name": "[private individual]",
+   "flagged_first_pass": true,
+   "outcome_first_pass": "unresolved",
+   "tracer_rules": "v4 (name variants)",
+   "tracer_named_change_held": null
+  }
+ ]
+}
